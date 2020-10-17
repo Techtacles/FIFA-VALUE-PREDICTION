@@ -208,8 +208,10 @@ a:hover{
 @media screen and (max-width: 900px){
         body{
                 overflow:scroll;
+                margin-bottom:20px;
         }
 	.container{
+                height:auto;
 		grid-template-columns: 1fr;
 	}
 
