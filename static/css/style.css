@@ -210,6 +210,7 @@ a:hover{
                 margin-bottom:20px;
         }
 	.container{
+                width:100%;
                 height:auto;
                 margin-top:30px;
 		grid-template-columns: 1fr;
@@ -226,4 +227,10 @@ a:hover{
 	.login-content{
 		justify-content: center;
 	}
+}
+@media screen and (max-width: 365px){
+     form{
+        width:95%;
+      }
+
 }
